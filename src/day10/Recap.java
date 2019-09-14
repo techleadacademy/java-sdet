@@ -10,6 +10,7 @@ public class Recap {
 	public String getHello() {
 		String hello = "helloooo";
 		return hello;
+		
 	}
 	
 	// Arguments(parameters) of method - The way to provide data to method
