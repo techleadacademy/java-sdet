@@ -57,7 +57,7 @@ public class Recap {
         
         obj2.sayHelloTo("Frank");
         
-        obj2.saySomething("Good night",7); 
+        obj2.saySomething("Good night",7);  
         obj2.saySomething("Good morning",2); 
         
         // Break till 11:24 AM EST
