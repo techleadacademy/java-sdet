@@ -14,13 +14,16 @@ public class MethodsRecap {
 		
 		// Lunch till 1 PM
 		
-		String str = getTwoFirstLetters("hello");
-		System.out.println(str);
+//		String str = getTwoFirstLetters("hello");
+//		System.out.println(str);
+//		
+//		System.out.println(getTwoFirstLetters("banana"));
+//		System.out.println(getTwoFirstLetters("Sunday"));
+//		
+//		sayHello();
 		
-		System.out.println(getTwoFirstLetters("banana"));
-		System.out.println(getTwoFirstLetters("Sunday"));
-		
-		sayHello();
+		String s1 = strThreeTimes("eclipse");
+		System.out.println(s1);
 
 		  
 	}
@@ -90,10 +93,24 @@ public class MethodsRecap {
 	// method accepts one String argument
 	// return first two letters of string
 	public static String getTwoFirstLetters(String str) {
-		
 		String firstTwoLetter = str.substring(0,2);
 		return firstTwoLetter;
 	}
+	
+	
+	// create a method strThreeTimes
+	// method returns String
+	// method accepts one string argument
+	// it returns three times its string argument
+	
+	// strThreeTimes("hello") -> hellohellohello
+	// strThreeTimes("Apple") -> AppleAppleApple
+	
+	public static String strThreeTimes(String str) {
+		String strThree = str+str+str;
+		return strThree;
+	}
+	
 	
 	
 
