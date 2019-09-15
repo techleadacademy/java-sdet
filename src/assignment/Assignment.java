@@ -12,7 +12,8 @@ public class Assignment {
 	public double sum(double num1, double num2) {
 		//TODO your code goes here
 		// please change return statement
-		return 0.0;
+		double d = num1 + num2;
+		return d;
 	}
 	
 	
@@ -25,24 +26,32 @@ public class Assignment {
 	 * 
 	 */
 	public boolean moreThen100(int num) {
-		//TODO your code goes here
-		// please change return statement
-		return false;
+		if(num > 100) {
+			return true;
+		}else {
+			return false;
+		}
 	}
+	
 	
 	/**
 	 * 
      * Given 2 ints, a and b, return their sum. 
-     * However, sums in the range 10..19 inclusive, are forbidden, so in that case just return 20.
+     * However, sums in the range 10..19 inclusive, are forbidden,
+     *  so in that case just return 20.
      * 
      * sortaSum(3, 4)
      * sortaSum(9, 4)
      * sortaSum(10, 11)
 	 */
 	public int sortaSum(int a, int b) {
-		//TODO your code goes here
-		// please change return statement
-		return 0;
+		int sum = a + b;
+		
+		if(sum >= 10 && sum <= 19) {
+			return 20;
+		}else {
+			return sum;
+		}
 	}
 	
 	
@@ -51,7 +60,7 @@ public class Assignment {
 	 * 
 	 * range(24)        -> true
 	 * range(80)        -> false
-	 * range(8)        -> false
+	 * range(8)         -> false
 	 * 
 	 */
 	public boolean range(int num) {
@@ -73,9 +82,14 @@ public class Assignment {
 	 * 
 	 */
 	public boolean rangeExcept(int num) {
-		//TODO your code goes here
-		// please change return statement
-		return false;
+		if(num >= 20 && num <= 40) {
+			return true;
+		}else if(num == 7 || num == 13 || num == 44) {
+			return true;
+		}else{
+			return false;
+		}
+		
 	}
 	
 	
@@ -168,10 +182,10 @@ public class Assignment {
      * Method returns last 3 letters of the str
      * if str length is less then 3 then return str without modification 
      */
-	public boolean lastThree(String str) {
+	public String lastThree(String str) {
 		// TODO your code goes here
 		// please change return statement
-		return false;
+		return null;
 	}
 	
 	
