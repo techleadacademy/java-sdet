@@ -3,6 +3,7 @@ package day12;
 public class School {
    public String name;
    public String address;
+   
    public static boolean isSummer;
    public static String currentDate;
    

@@ -14,12 +14,8 @@ public class SchoolDemo {
 		School cd = new School();
 		cd.name = "CodingDojo";
 		cd.address = "Arlington";
-		cd.isSummer = false;
-		cd.currentDate = "09/26/19";
+		//cd.isSummer = false;
+		//cd.currentDate = "09/26/19";
 		cd.printDetails();
-		
-		
-		
-		
 	}
 }
