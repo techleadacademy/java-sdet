@@ -12,9 +12,7 @@ public class Student {
 	// similar constructor
 
 	public Student() {
-	   this("Bob", "Doe");
-       System.out.println("Here in the empty constructor");
-       //this("Bob", "Doe");
+
 	}
 
 	public Student(String initfirstname, String initLastname) {
