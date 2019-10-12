@@ -5,21 +5,9 @@ import java.util.Random;
 public class RandomClass {
 
 	public static void main(String[] args) {
-		String all = "";
-		int num = 0;
-
-		while (true) {
-			String rS = getRandomStudent();
-			if (!all.contains(rS)) {
-				System.out.println(rS);
-				num++;
-				all += rS;
-			}
-
-			if (num == 16) {
-				break;
-			}
-		}
+		String rS = getRandomStudent();
+		System.out.println(rS);
+			
 
 	}
 
