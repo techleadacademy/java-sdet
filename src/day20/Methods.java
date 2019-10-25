@@ -15,8 +15,8 @@ public class Methods {
 	 * return  -> does action and returns value
 	 */
 	
-	public void printName(String name) {
-		System.out.println(name);
+	public void printName() {
+		System.out.println("bob");
 	}
 	
 	public void printName2() {
